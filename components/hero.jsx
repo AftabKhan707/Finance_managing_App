@@ -40,15 +40,10 @@ const HeroSection = () => {
               tracking, and personalized recommendations that grow your wealth
               effortlessly.
             </p>
-            <div className="flex justify-center lg:justify-start space-x-4">
+            <div className="flex justify-center lg:justify-start">
               <Link href="/dashboard">
                 <Button size="lg" className="px-8">
                   Get Started
-                </Button>
-              </Link>
-              <Link href="https://www.youtube.com/roadsidecoder">
-                <Button size="lg" variant="outline" className="px-8">
-                  Watch Demo
                 </Button>
               </Link>
             </div>
